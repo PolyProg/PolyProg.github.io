@@ -1,0 +1,20 @@
+---
+title: Events
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign sorted_events = site.events | sort: 'importance' %}
+{% for event in sorted_events %}
+  <div class="item-container">
+    <img class="item-image"
+          src="{{ site.baseurl }}{{ event.image }}"
+         alt="Accompanying image for event {{ event.title }}">
+    <div class="item-info">
+      <span class="item-title">{{ event.title }}</span>
+      <div class="item-description">{{ event.summary | markdownify }}</div>
+      <a class="item-link"
+         href="{{ event.website }}">More info...</a>
+    </div>
+  </div>
+{% endfor %}

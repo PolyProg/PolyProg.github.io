@@ -1,0 +1,24 @@
+---
+title: News
+---
+
+<h1>{{ page.title }}</h1>
+
+<div>
+  {% for post in site.posts %}
+    <div class="item-container">
+      {% if post.image %}
+      <img class="item-image"
+           src="{{ site.baseurl }}{{ post.image }}"
+           alt="Accompanying image for news '{{ post.title }}'">
+      {% endif %}
+      <div class="item-info">
+        <a id="{{ post.id }}"
+           class="item-date"
+           href="{{ site.baseurl}}/news#{{ post.id }}">{{ post.date | date: "%-d %B %Y" }}</a>
+        <span class="item-title">{{ post.title }}</span>
+        <div class="item-content">{{ post.content | markdownify }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

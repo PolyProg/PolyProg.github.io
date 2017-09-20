@@ -1,0 +1,71 @@
+---
+---
+
+<div class="section-container section-main">
+  {% capture description %}{% include description.md %}{% endcapture %}
+  {{ description | markdownify }}
+
+  <div class="newsletter">
+    {% include _html/newsletter.html %}
+  </div>
+</div>
+
+<div class="section-container">
+  <h2>News</h2>
+
+  {% for post in site.posts limit: 2 %}
+  <div class="item-container">
+    <img class="item-image"
+         src="{{ site.baseurl }}{{ post.image }}"
+         alt="Accompanying image for news '{{ post.title }}'">
+    <div class="item-info">
+      <span class="item-date">{{ post.date | date: "%-d %B %Y" }}</span>
+      <span class="item-title">{{ post.title }}</span>
+      <div class="item-description">{{ post.excerpt | markdownify }}</div>
+      {% unless post.short %}
+        <a class="item-link"
+           href="{{ post.url }}">Read more...</a>
+      {% endunless %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <a class="section-link"
+      href="{{ site.baseurl }}/news">More news...</a>
+</div>
+
+<div class="section-container">
+  <h2>Events</h2>
+
+  {% capture events_info %}{% include events_info.md %}{% endcapture %}
+  {{ events_info | markdownify }}
+
+  {% assign sorted_events = site.events | sort: 'importance' %}
+  {% for event in sorted_events %}
+  <div class="item-container">
+    <img class="item-image"
+          src="{{ site.baseurl }}{{ event.image }}"
+         alt="Accompanying image for event {{ event.title }}">
+    <div class="item-info">
+      <span class="item-title">{{ event.title }}</span>
+      <div class="item-description">{{ event.summary | markdownify }}</div>
+      <a class="item-link"
+         href="{{ event.website }}">More info...</a>
+    </div>
+  </div>
+  {% endfor %}
+
+  <a class="section-link"
+      href="{{ site.baseurl }}/events">More events...</a>
+</div>
+
+<div class="section-container">
+  <h2>About</h2>
+
+  <img class="img-large"
+       src="{{ site.baseurl }}/images/about-us.jpg"
+       alt="PolyProg group picture at HC2 2017">
+
+  <a class="section-link"
+     href="{{ site.baseurl }}/about">Learn more...</a>
+</div>

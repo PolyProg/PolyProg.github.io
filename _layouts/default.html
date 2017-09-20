@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-begin">
+        <a href="/">
+          <img class="site-logo"
+               src="{{ site.baseurl }}/images/logos/polyprog.svg"
+               alt="PolyProg logo">
+        </a>
+      </div>
+
+      <div class="sidebar-end">
+        <a class="sidebar-nav"
+           href="{{ site.baseurl }}/news">News</a>
+        <a class="sidebar-nav"
+           href="{{ site.baseurl }}/events">Events</a>
+        <a class="sidebar-nav"
+           href="{{ site.baseurl }}/about">About</a>
+      </div>
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <script>
+      // Make all external links open in a new tab
+      for (var i = 0; i < document.links.length; i++) {
+        if (document.links[i].hostname != window.location.hostname) {
+          document.links[i].target = '_blank';
+          document.links[i].rel = 'noopener noreferrer';
+        }
+      }
+    </script>
+  </body>
+</html>

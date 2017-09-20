@@ -1,0 +1,51 @@
+---
+title: About us
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="section-container">
+  <h2>Committee</h2>
+  <p>
+    Feel free to e-mail us at <a href="mailto:polyprog@epfl.ch">polyprog@epfl.ch</a> with any questions or remarks you may have.
+  </p>
+  <div class="persons-container">
+    {% assign sorted_people = site.people | sort: 'sort_order' %}
+    {% for person in sorted_people %}
+      <a class="person-link"
+         href="{{ person.person_website }}">
+        <div class="person-container">
+          <img class="person-picture"
+               alt="Picture of {{ person.person_name }}"
+               src="{{ site.baseurl }}{{ person.person_picture }}">
+          <div class="person-info">
+            <span class="person-name">{{ person.person_name }}</span>
+            <br>
+            <span class="person-title">{{ person.title }}</span>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section-container">
+  <h2>History</h2>
+
+  {% capture history %}{% include history.md %}{% endcapture %}
+  {{ history | markdownify }}
+</div>
+
+<div class="section-container">
+  <h2>Statutes</h2>
+
+  {% capture statutes %}{% include statutes.md %}{% endcapture %}
+  {{ statutes | markdownify }}
+</div>
+
+<div class="section-container">
+  <h2>General Assembly minutes</h2>
+
+  {% capture minutes %}{% include minutes.md %}{% endcapture %}
+  {{ minutes | markdownify }}
+</div>

@@ -1,0 +1,24 @@
+# Name of the website
+name: PolyProg
+
+# Short description
+description: Competitive programming association at EPFL
+
+# Items that do not have a date (unlike posts)
+collections:
+# Events
+  events:
+    output: true
+# People
+  people:
+    output: false
+# SWERC results
+  results:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
