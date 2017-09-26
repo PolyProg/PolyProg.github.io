@@ -22,6 +22,11 @@ In order to find them, we hold a selection contest.
 The contest rules are simple: contestants are given a set of problems (e.g. dynamic programming, graph algorithms, divide/conquer, ...)
 and must solve as many of them as possible in the given time.
 
+The Swiss Subregional Contest will be held on **October 7, 2017** starting at **10:30** in the **BC Building** at EPFL. Lunch will be provided.  
+Click [here](http://swerc.hc2.ch) to register!
+
+---
+
 PolyProg has participated 11 times in SWERC, and won 6 silver medals and 8 bronze medals.
 
 {% assign sorted_results = site.results | sort: 'id' %}
