@@ -12,7 +12,7 @@ The parts that are intended to be changed are:
 - `_results`, contains EPFL results at ACM ICPC.
 - `_includes/*.md`, the texts used on the website.
 
-The `images` folder has subfolder for items that require images; same for the `pdf` folder.
+The `images` folder has subfolder for items that require images; same for the `pdf` and `zip` folders.
 
 No other file should need changing for normal operation.
 
