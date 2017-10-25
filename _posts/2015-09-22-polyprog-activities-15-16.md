@@ -19,4 +19,6 @@ An official meeting where you can become an association or even a committee memb
 The biggest programming challenge in Switzerland! Have fun solving problems in teams of up to three people.  
 We are also recruiting members for the contest committee, send us an e-mail at info@hc2.ch if you're interested. 
 
-To stay informed you can register on our website, which will put you on our mailing list.In case you have any other questions, do not hesitate to contact us at polyprog@epfl.ch Best regards The PolyProg committee
+To stay informed you can register on our website, which will put you on our mailing list.In case you have any other questions, do not hesitate to contact us at president.polyprog@epfl.ch 
+
+Best regards The PolyProg committee
