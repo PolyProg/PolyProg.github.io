@@ -14,7 +14,7 @@ permalink: /santa
 
 Ho ho ho! Santa decided to pass by EPFL before Christmas, to judge nice students based on their algorithmic performance.
 
-The Challenge is organized by Prof. Ola Svensson, in collaboration with PolyProg and Yandex.  
+The Challenge is organized by Prof. Kapralov, in collaboration with PolyProg and Yandex.  
 It is focused on Bachelor students, specifically those in second year taking the "Algorithms" class, but open to all EPFL students.
 
 ![Yandex logo](/images/logos/yandex.png){: style="float: right"}
@@ -67,9 +67,9 @@ During the challenge, your team will use one computer to write programs, and sub
 
 You will use a computer running our custom environment, with the follosing software:
 - Editors: Emacs, Geany, Vim
-- IDEs: Eclipse
-- Debuggers: gdb, ddd (and Eclipse)
-- Languages: C and C++, Java 8, Python 2 and 3
+- IDEs: NetBeans, Code::Blocks, Eclipse (for Java, C++ and Python)
+- Debuggers: gdb (and Eclipse)
+- Languages: C++, Java 8, Python 2 and 3
 
 Reference documentation for all supported languages will be available during the contest, at [doc.hc2.ch](http://doc.hc2.ch).
 
