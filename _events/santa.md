@@ -23,6 +23,8 @@ Santa's Algorithmic Challenge is sponsored by Yandex.
 
 ## Schedule
 
+The Challenge will occur on **Monday, November 27, 2017**.
+
 |-------|-----------------------------|------------------|
 | When  | What                        | Where            |
 |-------|-----------------------------|------------------|
