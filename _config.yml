@@ -15,6 +15,9 @@ collections:
 # SWERC results
   results:
     output: false
+# Gallery albums
+  albums:
+    output: false
 
 defaults:
   -

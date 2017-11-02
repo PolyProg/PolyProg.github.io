@@ -154,7 +154,7 @@ h3 {
 }
 
 
-/* Item container
+/* Standard items
  * Small: Image, date, name, description and "read more" stacked vertically
  * Large: Image on left, then date, name, description and "read more" on the right */
 .item-container {
@@ -202,33 +202,30 @@ h3 {
 }
 
 
-/* Person container
- * Image on top, then name and title; all of it is a link, slightly transparent unless hovered */
-.persons-container {
-  text-align: center;
-}
-.person-container {
+/* Inline items
+ * Image on top, then title (and optionally subtitle); all of it is a link, slightly transparent unless hovered */
+.item-inline-container {
   display: inline-block;
   text-align: center;
   margin: 1rem;
 }
-.person-link:hover .person-info {
+.item-inline-link:hover .item-inline-info {
   background-color: #eee;
 }
-.person-info {
+.item-inline-info {
   color: #111;
   padding: 0.5rem 0;
 }
-.person-picture {
+.item-inline-image {
   display: table-cell;
   width: 13rem;
   height: 13rem;
 }
-.person-name {
+.item-inline-title {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.person-title {
+.item-inline-subtitle {
   font-size: 1.25rem;
 }
 

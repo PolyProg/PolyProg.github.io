@@ -9,24 +9,23 @@ title: About us
   <p>
     Feel free to e-mail us at <a href="mailto:president.polyprog@epfl.ch">president.polyprog@epfl.ch</a> with any questions or remarks you may have.
   </p>
-  <div class="persons-container">
-    {% assign sorted_people = site.people | sort: 'sort_order' %}
-    {% for person in sorted_people %}
-      <a class="person-link"
-         href="{{ person.person_website }}">
-        <div class="person-container">
-          <img class="person-picture"
-               alt="Picture of {{ person.person_name }}"
-               src="{{ site.baseurl }}{{ person.person_picture }}">
-          <div class="person-info">
-            <span class="person-name">{{ person.person_name }}</span>
-            <br>
-            <span class="person-title">{{ person.title }}</span>
-          </div>
+
+  {% assign sorted_people = site.people | sort: 'sort_order' %}
+  {% for person in sorted_people %}
+    <a class="item-inline-link"
+       href="{{ person.person_website }}">
+      <div class="item-inline-container">
+        <img class="item-inline-image"
+             alt="Picture of {{ person.person_name }}"
+             src="{{ site.baseurl }}{{ person.person_picture }}">
+        <div class="item-inline-info">
+          <span class="item-inline-title">{{ person.person_name }}</span>
+          <br>
+          <span class="item-inline-subtitle">{{ person.title }}</span>
         </div>
-      </a>
-    {% endfor %}
-  </div>
+      </div>
+    </a>
+  {% endfor %}
 </div>
 
 <div class="section-container">
