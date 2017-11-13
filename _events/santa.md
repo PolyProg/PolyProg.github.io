@@ -21,6 +21,9 @@ It is focused on Bachelor students, specifically those in second year taking the
 Santa's Algorithmic Challenge is sponsored by Yandex.
 
 
+## Register [here](https://goo.gl/sPwXw5)!
+
+
 ## Schedule
 
 The Challenge will occur on **Monday, November 27, 2017**.
@@ -67,7 +70,7 @@ You shouldn't do this. Otherwise, Santa might put you in his bag and take you wi
 
 During the challenge, your team will use one computer to write programs, and submit those to [contest.yandex.com](https://contest.yandex.com/).
 
-You will use a computer running our custom environment, with the follosing software:
+You will use a computer running our custom environment, with the following software:
 - Editors: Emacs, Geany, Vim
 - IDEs: NetBeans, Code::Blocks, Eclipse (for Java, C++ and Python)
 - Debuggers: gdb (and Eclipse)
