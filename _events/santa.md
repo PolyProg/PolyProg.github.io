@@ -21,9 +21,6 @@ It is focused on Bachelor students, specifically those in second year taking the
 Santa's Algorithmic Challenge is sponsored by Yandex.
 
 
-## Register [here](https://goo.gl/sPwXw5)!
-
-
 ## Schedule
 
 The Challenge will occur on **Monday, November 27, 2017**.
@@ -74,7 +71,7 @@ You will use a computer running our custom environment, with the following softw
 - Editors: Emacs, Geany, Vim
 - IDEs: NetBeans, Code::Blocks, Eclipse (for Java, C++ and Python)
 - Debuggers: gdb (and Eclipse)
-- Languages: C++, Java 8, Python 2 and 3
+- Languages: C++, Java 8, Scala 2.12, Python 2.7 and 3.2
 
 Reference documentation for all supported languages will be available during the contest, at [doc.hc2.ch](http://doc.hc2.ch).
 
