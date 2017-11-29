@@ -12,7 +12,7 @@ permalink: /santa
 
 # Santa's Algorithmic Challenge
 
-Ho ho ho! Santa decided to pass by EPFL before Christmas, to judge nice students based on their algorithmic performance.
+Ho ho ho! Every year, Santa passes by EPFL before Christmas, to judge nice students based on their algorithmic performance.
 
 The Challenge is organized by Prof. Kapralov, in collaboration with PolyProg and Yandex.  
 It is focused on Bachelor students, specifically those in second year taking the "Algorithms" class, but open to all EPFL students.
@@ -23,7 +23,7 @@ Santa's Algorithmic Challenge is sponsored by Yandex.
 
 ## Schedule
 
-The Challenge will occur on **Monday, November 27, 2017**.
+The 2017 edition happened on **Monday, November 27**.
 
 |-------|-----------------------------|------------------|
 | When  | What                        | Where            |
@@ -83,3 +83,4 @@ Internet access is prohibited outside of the juding contest and documentation.
 - 2014: [problems](/pdf/santa/2014/statements.pdf), [solutions](/pdf/santa/2014/solutions.pdf)
 - 2015: [problems](/pdf/santa/2015/statements.pdf) (no solutions, sorry)
 - 2016: [problems](/pdf/santa/2016/statements.pdf), [solutions](/pdf/santa/2016/solutions.pdf)
+- 2017: [problems](/pdf/santa/2017/statements.pdf), [solutions](/pdf/santa/2017/solutions.pdf)
