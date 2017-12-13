@@ -24,7 +24,7 @@ and must solve as many of them as possible in the given time.
 
 ---
 
-PolyProg has participated 11 times in SWERC, and won 6 silver medals and 8 bronze medals.
+PolyProg has participated 12 times in SWERC, and won 6 silver medals and 9 bronze medals.
 
 {% assign sorted_results = site.results | sort: 'id' %}
 {% for result in sorted_results reversed %}
