@@ -22,6 +22,8 @@ In order to find them, we hold a selection contest.
 The contest rules are simple: contestants are given a set of problems (e.g. dynamic programming, graph algorithms, divide/conquer, ...)
 and must solve as many of them as possible in the given time.
 
+The selection contest in 2018 will be held on **October 13, 2018**, starting at about 10:00 and ending around 18:00. [Register now](https://go.epfl.ch/ssc2018)! Stay tuned for more details.
+
 ---
 
 PolyProg has participated 12 times in SWERC, and won 6 silver medals and 9 bronze medals.
