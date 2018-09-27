@@ -1,6 +1,6 @@
 PolyProg is a **competitive programming association** at EPFL.
 
-We promote the interests and skills in algorithms within EPFL. 
+We promote the interests and skills in algorithms within EPFL.  
 We train EPFL students for international contests, such as the ACM ICPC.  
 We organize events, both for EPFL students and the whole of Switzerland.
 
