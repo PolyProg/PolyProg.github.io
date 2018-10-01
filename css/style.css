@@ -140,18 +140,13 @@ h3 {
 }
 
 /* Sections
- * Title, then content with some margin; main section is more prominent
- * Optionally end with a link, emphasized by positioning it to the right */
+ * Title, then content with some margin; main section is more prominent */
 .section-container {
   margin: 0 0 6rem 0;
 }
 .section-main p {
   font-size: 1.1rem;
 }
-.section-link {
-  margin: 1em;
-}
-
 
 /* Standard items
  * Small: Image, date, name, description and "read more" stacked vertically
@@ -255,4 +250,5 @@ h3 {
   display: block;
   max-width: 100%;
   max-height: 30%;
+  margin-bottom: 1em;
 }
