@@ -26,7 +26,7 @@ The selection contest in 2018 will be held on **October 13, 2018**, starting at 
 [Register now](https://go.epfl.ch/ssc2018)!
 
 The contest will be preceded by a talk from Microsoft about their awesome HoloLens mixed-reality technology.  
-If you'd like to come for the talk only, please [register here](tinyurl.com/ybc6aqph) so we can know how many people will be there to eat food.
+If you'd like to come for the talk only, please [register here](https://tinyurl.com/ybc6aqph) so we can know how many people will be there to eat food.
 
 ---
 
