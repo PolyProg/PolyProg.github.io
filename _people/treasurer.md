@@ -1,6 +1,6 @@
 ---
 title: Treasurer
-sort_order: 2
+sort_order: 3
 
 person_name: Ruofan Zhou
 person_picture: /images/people/ruofan-zhou.jpg

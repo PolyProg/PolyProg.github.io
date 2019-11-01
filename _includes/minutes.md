@@ -1,6 +1,7 @@
 PolyProg holds an ordinary general assembly every year, usually around October.  
 Here are the minutes of all GAs, in reverse chronological order:
 
+- [2019](https://drive.google.com/open?id=1aA4YgRDVmt3T3GPGPqwRitvK4iRUQBNL)
 - [2018](https://drive.google.com/open?id=1rxfU2OESrvPeI0JpDAPOC8VI87jkXmma)
 - [2017](https://drive.google.com/open?id=1-uNwTxpw6gJrXu94N9CmLu95rW8YtcIA)
 - [2016](https://drive.google.com/open?id=10kpH1bhiVlrqgKkksQOVvPAd29LjHzE5)

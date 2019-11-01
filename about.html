@@ -12,19 +12,19 @@ title: About us
 
   {% assign sorted_people = site.people | sort: 'sort_order' %}
   {% for person in sorted_people %}
-    <a class="item-inline-link"
-       href="{{ person.person_website }}">
+<!--    <a class="item-inline-link"
+       href="{{ person.person_website }}"> -->
       <div class="item-inline-container">
-        <img class="item-inline-image"
+<!--        <img class="item-inline-image"
              alt="Picture of {{ person.person_name }}"
-             src="{{ site.baseurl }}{{ person.person_picture }}">
+             src="{{ site.baseurl }}{{ person.person_picture }}"> -->
         <div class="item-inline-info">
           <span class="item-inline-title">{{ person.person_name }}</span>
           <br>
           <span class="item-inline-subtitle">{{ person.title }}</span>
         </div>
       </div>
-    </a>
+<!--    </a> -->
   {% endfor %}
 </div>
 
