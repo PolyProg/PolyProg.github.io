@@ -1,8 +1,8 @@
 ---
-title: Vice-President 1
+title: Vice-President
 sort_order: 1
 
-person_name: Mila Kjoseva
+person_name: Dimitar Bajraktarov
 person_picture:
 person_website:
 ---
