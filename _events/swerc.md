@@ -35,7 +35,7 @@ Due to the pandemic, there will be special rules this year:
 We will be checking the solutions for plagiarism, so make sure to follow the rules.
 
 The contest is open to all EPFL students.
-Among the best students satisfying the [ACM-ICPC eligibility criteria](http://icpc.baylor.edu/download/regionals/rules/EligibilityDecisionTree-2019.pdf), two teams of three students each will be selected to represent EPFL at the regional contest SWERC on March 6th-7th.
+Among the best students satisfying the [ACM-ICPC eligibility criteria](https://icpc.global/newcms/regionals/rules/EligibilityDecisionTree-2020.pdf), two teams of three students each will be selected to represent EPFL at the regional contest SWERC on March 6th-7th.
 
 ---
 
