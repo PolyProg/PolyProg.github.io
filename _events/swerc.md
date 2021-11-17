@@ -22,11 +22,11 @@ In order to find them, we hold a selection contest.
 The contest rules are simple: contestants are given a set of problems (e.g. dynamic programming, graph algorithms, divide/conquer, ...)
 and must solve as many of them as possible in the given time.
 
-The selection contest in the 20/21 academic year will be held on **January 16, 2021**, starting at **14:00** on [Codeforces](https://codeforces.com/). It will last for 5 hours.
-[Register now](https://go.epfl.ch/ssc2021)!
+The selection contest in the 21/22 academic year will be held on **November 27, 2021**, starting at **11:00** on [Codeforces](https://codeforces.com/). It will last for 5 hours.
+[Register now](https://forms.gle/VJNNkErk2xmca4Hq7)!
 
 Due to the pandemic, there will be special rules this year:
-- You will be able to choose between a variety of languages, including ICPC's official languages: C, C++, and Java.
+- You will be able to choose between a variety of languages, including ICPC's official languages: C, C++, Python and Java.
 - The contest will be held virtually. The contest link will be sent later per e-mail.
 - This year, the contest will be open-book; you are allowed to use any online resources (incl. docs and tutorials) that were made before the contest started.
 - However, all code must be written by yourself, either before or during the contest. This means that you are not allowed to copy code from other users or the internet.
