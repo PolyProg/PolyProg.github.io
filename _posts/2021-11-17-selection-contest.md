@@ -5,4 +5,4 @@ short: true
 ---
 
 Registration for the Swiss Subregional contest 2021 are now open!  
-Win a trip to Paris to represent EPFL, [register now](https://forms.gle/RDj5LK7y3qkzofEL8)!
+This is your chance to represent EPFL!, [register now](https://forms.gle/RDj5LK7y3qkzofEL8)!
