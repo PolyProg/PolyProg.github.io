@@ -39,7 +39,7 @@ Among the best students satisfying the [ACM-ICPC eligibility criteria](https://i
 
 ---
 
-PolyProg has participated 12 times in SWERC, and won 6 silver medals and 9 bronze medals.
+PolyProg has participated 16 times in SWERC, and won 6 silver medals and 9 bronze medals.
 
 {% assign sorted_results = site.results | sort: 'id' %}
 {% for result in sorted_results reversed %}
