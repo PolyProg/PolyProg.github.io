@@ -1,7 +1,7 @@
 /* Proper font */
 @font-face {
     font-family: Inconsolata;
-    src: url(Inconsolata-Regular.ttf);
+    src: url(Inconsolata-Bold.ttf);
 }
 * {
   font-family: Inconsolata;
