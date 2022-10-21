@@ -1,6 +1,10 @@
 /* Proper font */
+@font-face {
+    font-family: Inconsolata;
+    src: url(Inconsolata-Regular.ttf);
+}
 * {
-  font-family: "Helvetica";
+  font-family: Inconsolata;
 }
 
 
