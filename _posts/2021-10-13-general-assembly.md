@@ -1,6 +1,6 @@
 ---
 title: General Assembly 2021
-image: /images/posts/2017-10-24-general-assembly.svg
+image: /images/posts/polyprog.png
 short: true
 ---
 
