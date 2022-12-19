@@ -12,8 +12,8 @@ title: About us
 
   {% assign sorted_people = site.people | sort: 'sort_order' %}
   {% for person in sorted_people %}
-<!--    <a class="item-inline-link"
-       href="{{ person.person_website }}"> -->
+    <a class="item-inline-link"
+       href="{{ person.person_website }}">
       <div class="item-inline-container">
         <img class="item-inline-image"
              alt="Picture of {{ person.person_name }}"
