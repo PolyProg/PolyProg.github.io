@@ -4,5 +4,5 @@ sort_order: 4
 
 person_name: Mirali Ahmadli
 person_picture: /images/people/mirali-ahmadli.jpg
-person_website:
+person_website: https://www.linkedin.com/in/miraliahmadli/
 ---
