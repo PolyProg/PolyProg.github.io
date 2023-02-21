@@ -1,8 +1,8 @@
 ---
-title: ACM ICPC Local Selection
+title: ACM ICPC Local Selection 
 importance: 1
 summary: |-
-  PolyProg organizes the local selection contest for ACM ICPC every year.  
+  Every year, PolyProg organizes with ACM ETHZ the Swiss Subregional local selection contest for ACM ICPC .  
   The best 6 students eligible for ICPC then participate in the South-Western European Regional Contest (SWERC).
 website: /swerc
 image: /images/logos/icpc.png
@@ -44,7 +44,7 @@ A few other details:
 -In order to participate students need to fulfil the ACM-ICPC eligibility criteria. We will let you know by email if you're not eligible after you fill out the form.    
 -You will use the computers in the room so no need to bring a laptop. However, you are allowed to bring your own keyboard if it's more comfortable for you.    
 -We will provide food before, during and after the contest so no need to worry about that!     
-PolyProg has participated 16 times in SWERC, and won 6 silver medals and 9 bronze medals.    
+PolyProg has participated 17 times in SWERC, and won 6 silver medals and 10 bronze medals.    
 
 {% assign sorted_results = site.results | sort: 'id' %}
 {% for result in sorted_results reversed %}
